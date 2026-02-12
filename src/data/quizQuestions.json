@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "question": "What is the time complexity of binary search?",
+    "options": ["O(n)", "O(log n)", "O(n²)", "O(1)"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 2,
+    "question": "Which data structure uses LIFO (Last In First Out)?",
+    "options": ["Queue", "Stack", "Array", "Linked List"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 3,
+    "question": "What does SQL stand for?",
+    "options": ["Structured Query Language", "Simple Query Language", "Standard Question Language", "System Query Language"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "Which sorting algorithm has the best average case time complexity?",
+    "options": ["Bubble Sort", "Selection Sort", "Merge Sort", "Insertion Sort"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 5,
+    "question": "What is the output of 5 // 2 in Python?",
+    "options": ["2.5", "2", "3", "2.0"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 6,
+    "question": "Which protocol is used for secure web communication?",
+    "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 7,
+    "question": "What does API stand for?",
+    "options": ["Application Programming Interface", "Advanced Programming Interface", "Application Process Integration", "Automated Programming Interface"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is NOT a programming paradigm?",
+    "options": ["Object-Oriented", "Functional", "Procedural", "Sequential"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 9,
+    "question": "What is the maximum number of nodes in a binary tree of height h?",
+    "options": ["2^h", "2^(h+1) - 1", "2^h - 1", "2^(h-1)"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 10,
+    "question": "Which language is primarily used for machine learning?",
+    "options": ["JavaScript", "Python", "C++", "Ruby"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 11,
+    "question": "What does CSS stand for?",
+    "options": ["Computer Style Sheets", "Cascading Style Sheets", "Creative Style System", "Central Style Sheets"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 12,
+    "question": "Which of these is a NoSQL database?",
+    "options": ["MySQL", "PostgreSQL", "MongoDB", "Oracle"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 13,
+    "question": "What is the space complexity of a recursive Fibonacci function?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 14,
+    "question": "Which HTTP method is used to update a resource?",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 15,
+    "question": "What does RAM stand for?",
+    "options": ["Random Access Memory", "Read Access Memory", "Rapid Access Memory", "Remote Access Memory"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is a compiled language?",
+    "options": ["Python", "JavaScript", "C++", "Ruby"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 17,
+    "question": "What is the default port for HTTP?",
+    "options": ["443", "8080", "80", "3000"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 18,
+    "question": "Which data structure is best for implementing a priority queue?",
+    "options": ["Array", "Linked List", "Heap", "Stack"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 19,
+    "question": "What does JSON stand for?",
+    "options": ["JavaScript Object Notation", "Java Standard Object Notation", "JavaScript Oriented Network", "Java Serialized Object Notation"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 20,
+    "question": "Which of these is NOT a type of software testing?",
+    "options": ["Unit Testing", "Integration Testing", "Compilation Testing", "System Testing"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 21,
+    "question": "What is the purpose of a compiler?",
+    "options": ["Execute code directly", "Translate source code to machine code", "Debug code", "Format code"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 22,
+    "question": "Which algorithm is used to find the shortest path in a graph?",
+    "options": ["Bubble Sort", "Dijkstra's Algorithm", "Binary Search", "Quick Sort"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 23,
+    "question": "What does the 'static' keyword mean in Java?",
+    "options": ["Variable cannot change", "Belongs to the class, not instance", "Private access", "Final value"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 24,
+    "question": "Which is the correct way to declare a constant in JavaScript?",
+    "options": ["var x = 5", "let x = 5", "const x = 5", "constant x = 5"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 25,
+    "question": "What is the primary purpose of version control systems like Git?",
+    "options": ["Compile code", "Track changes and collaborate", "Test code", "Deploy applications"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 26,
+    "question": "Which of these is a relational database?",
+    "options": ["Redis", "Cassandra", "PostgreSQL", "DynamoDB"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 27,
+    "question": "What does OOP stand for?",
+    "options": ["Object Oriented Programming", "Operation Oriented Process", "Organized Object Process", "Optimal Operation Programming"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 28,
+    "question": "Which traversal visits nodes level by level in a tree?",
+    "options": ["Inorder", "Preorder", "Postorder", "Level Order"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 29,
+    "question": "What is the worst-case time complexity of Quick Sort?",
+    "options": ["O(n log n)", "O(n²)", "O(n)", "O(log n)"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 30,
+    "question": "Which of these is NOT a cloud service provider?",
+    "options": ["AWS", "Azure", "Google Cloud", "MySQL"],
+    "correctAnswer": 3
+  }
+]
