@@ -8,7 +8,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <h1 className="text-xl font-bold text-gray-800">My App</h1>
+            <h1 className="text-xl font-bold text-gray-800">SQuiz</h1>
           </div>
           
           <div className="hidden md:flex space-x-8">
@@ -18,12 +18,12 @@ function Navbar() {
             <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">
               About
             </a>
-            <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">
+            {/* <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">
               Services
             </a>
             <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors">
               Contact
-            </a>
+            </a> */}
           </div>
 
           <div className="md:hidden">
@@ -46,12 +46,12 @@ function Navbar() {
             <a href="#" className="block py-2 text-gray-700 hover:text-blue-600 transition-colors">
               About
             </a>
-            <a href="#" className="block py-2 text-gray-700 hover:text-blue-600 transition-colors">
+            {/* <a href="#" className="block py-2 text-gray-700 hover:text-blue-600 transition-colors">
               Services
             </a>
             <a href="#" className="block py-2 text-gray-700 hover:text-blue-600 transition-colors">
               Contact
-            </a>
+            </a> */}
           </div>
         )}
       </div>

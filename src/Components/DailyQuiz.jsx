@@ -23,11 +23,6 @@ function DailyQuiz() {
     }
   };
 
-  const handleReset = () => {
-    setSelectedAnswer(null);
-    setIsSubmitted(false);
-  };
-
   // If no question available for today (day 31+)
   if (!todaysQuestion) {
     return (
@@ -95,33 +90,28 @@ function DailyQuiz() {
             Submit Answer
           </button>
         ) : (
-          <div>
-            <div
-              className={`p-4 rounded-lg mb-4 ${
-                isCorrect ? 'bg-green-100 border border-green-400' : 'bg-red-100 border border-red-400'
+          <div
+            className={`p-4 rounded-lg ${
+              isCorrect ? 'bg-green-100 border border-green-400' : 'bg-red-100 border border-red-400'
+            }`}
+          >
+            <p
+              className={`font-bold text-lg ${
+                isCorrect ? 'text-green-800' : 'text-red-800'
               }`}
             >
-              <p
-                className={`font-bold text-lg ${
-                  isCorrect ? 'text-green-800' : 'text-red-800'
-                }`}
-              >
-                {isCorrect ? '✓ Correct!' : '✗ Incorrect'}
-              </p>
-              <p className={isCorrect ? 'text-green-700' : 'text-red-700'}>
-                {isCorrect
-                  ? 'Great job! You got it right.'
-                  : `The correct answer is: ${String.fromCharCode(65 + todaysQuestion.correctAnswer)}. ${
-                      todaysQuestion.options[todaysQuestion.correctAnswer]
-                    }`}
-              </p>
-            </div>
-            <button
-              onClick={handleReset}
-              className="w-full py-3 px-6 rounded-lg font-semibold bg-gray-600 text-white hover:bg-gray-700 transition-all"
-            >
-              Try Again
-            </button>
+              {isCorrect ? '✓ Correct!' : '✗ Incorrect'}
+            </p>
+            <p className={isCorrect ? 'text-green-700' : 'text-red-700'}>
+              {isCorrect
+                ? 'Great job! You got it right.'
+                : `The correct answer is: ${String.fromCharCode(65 + todaysQuestion.correctAnswer)}. ${
+                    todaysQuestion.options[todaysQuestion.correctAnswer]
+                  }`}
+            </p>
+            <p className="text-gray-600 mt-3 text-sm">
+              🗓️ Come back tomorrow for a new challenge!
+            </p>
           </div>
         )}
       </div>
